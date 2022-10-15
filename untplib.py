@@ -54,7 +54,7 @@ class NTP:
     #_NTP_EPOCH = datetime.date(1900, 1, 1)
     """NTP epoch"""
     #NTP_DELTA = (_SYSTEM_EPOCH - _NTP_EPOCH).days * 24 * 3600
-    NTP_DELTA = 3155673600
+    NTP_DELTA = 2208988800
     """delta between system and NTP time"""
 
     REF_ID_TABLE = {
